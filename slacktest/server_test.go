@@ -6,9 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Manjish/slack"
 	"github.com/stretchr/testify/assert"
-
-	"github.com/slack-go/slack"
 )
 
 func TestDefaultNewServer(t *testing.T) {

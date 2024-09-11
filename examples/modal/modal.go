@@ -18,7 +18,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/slack-go/slack"
+	"github.com/Manjish/slack"
 	"time"
 )
 

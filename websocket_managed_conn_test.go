@@ -8,12 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Manjish/slack"
+	"github.com/Manjish/slack/slacktest"
 	websocket "github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-
-	"github.com/slack-go/slack"
-	"github.com/slack-go/slack/slacktest"
 )
 
 const (

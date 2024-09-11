@@ -2,9 +2,7 @@
 
 package slackevents
 
-import (
-	"github.com/slack-go/slack"
-)
+import "github.com/Manjish/slack"
 
 // EventsAPIInnerEvent the inner event of a EventsAPI event_callback Event.
 type EventsAPIInnerEvent struct {

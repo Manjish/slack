@@ -4,9 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Manjish/slack"
 	"github.com/stretchr/testify/assert"
-
-	"github.com/slack-go/slack"
 )
 
 func TestRTMInfo(t *testing.T) {

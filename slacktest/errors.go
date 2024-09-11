@@ -1,8 +1,6 @@
 package slacktest
 
-import (
-	"github.com/slack-go/slack/internal/errorsx"
-)
+import "github.com/Manjish/slack/internal/errorsx"
 
 const (
 	// ErrEmptyServerToHub is the error when attempting an empty server address to the hub
