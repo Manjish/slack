@@ -532,7 +532,6 @@ type RichTextInputBlockElement struct {
 	FocusOnLoad          bool                  `json:"focus_on_load,omitempty"`
 }
 
-
 // ElementType returns the type of the Element
 func (s RichTextInputBlockElement) ElementType() MessageElementType {
 	return s.Type
